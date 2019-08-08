@@ -17,6 +17,7 @@ else
     sed -i s$'\001'');_'$'\001'$NEWLINE$'\001''g' wp-config.php
     DOTSTAR=".*"
     sed -i s$'\001''REPLACE_SALT'$'\001'$DOTSTAR$'\001''g' wp-config.php
+    chown 472:472 wp-config.php
 fi
 if [ ! -d "dbdata" ]; then
     mkdir dbdata
