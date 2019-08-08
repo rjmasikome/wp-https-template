@@ -5,7 +5,7 @@ This includes a bash file, that will generate the configuration that is needed f
 
 
 ## Requirement
-1. Eleveated User / Root
+1. Elevated User / Root
 2. `docker` is installed and the current user is inside docker group
 3. `docker-compose` on the latest version is installed
 
